@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BookRead</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Form -->
+        <div class="container shadow" id="todoApps">
+            <h2 class="containerHeader textCenter">Kegiatan Membaca</h2>
+            <form action="" class="" id="form">
+                <div class="inputForm">
+                    <label for="title">Judul Buku</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                
+                <div class="inputForm">
+                    <label for="date">Target Selesai</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                    <input type="submit" class="submitBtn"  name="submit" value="submit">
+            </form>
+        </div>
+
+        <!-- List -->
+        <div class="container shadow">
+            <h2 class="containerHeader">Selesai dibaca</h2>
+    
+            <div class="list" id="finished">
+            </div>
+        </div>
+    
+        <div class="container shadow">
+            <h2 class="containerHeader"> Belum selesai baca</h2>
+    
+            <div class="list" id="todo">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+
+    
+</body>
+</html>
